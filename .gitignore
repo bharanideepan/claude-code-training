@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# MCP / tooling config (local only)
+.mcp.json
+mcp-env-config/
+
+# Claude Code local settings
+.claude/
